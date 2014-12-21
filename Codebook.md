@@ -3,6 +3,7 @@
 This script creates a "tidy" dataset given a set of motion tracking data collected from smart phones.
 
 The project's goal is to organize the data into a "tidy" dataset: 
+
 1. One variable per column
 2. One observation per row
 3. One type of obserational unit per table
