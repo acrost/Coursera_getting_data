@@ -14,7 +14,7 @@ The data is collected from Samsung Galaxy S II smart phones worn by 30 volunteer
 The data takes the form of 3 dimensional linear acceleration and angular velocity. 
 
 The data relevant to this project are stored in these text files:
-* X_test.txt
+* X_test.txt 
 * y_text.txt
 * subject_test.txt
 * X_train.txt
@@ -23,6 +23,9 @@ The data relevant to this project are stored in these text files:
 * features.txt
 * activity_labels.txt
 
+
+mean(): Mean value
+std(): Standard deviation
 
 The data is downloaded from this URL: [Get_data_files](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
