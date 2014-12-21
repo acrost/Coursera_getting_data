@@ -25,6 +25,7 @@ The data relevant to this project are stored in these text files:
 
 
 mean(): Mean value
+
 std(): Standard deviation
 
 The data is downloaded from this URL: [Get_data_files](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
