@@ -48,9 +48,19 @@ The relevant data contains either one of these identifiers in the their variable
 * mean(): Mean value
 * std(): Standard deviation
 
-A search is performed using the  grep() fucntions to locate these in the merged X dataset using the new labels assigned from the features table.
+A search is performed using the  grep() fucntions to locate these in the merged X dataset using the new labels assigned from the features table. Grep() returns an index which is used to identify the columns needed. The X dataset is pruned of unneeded columns.
 
+Next, the variable names in the X dataset are edited to have more recognizeable descriptions. Columns are changed to change abbreviations like "Freq" to "Frequency" etc.
 
+Column names are assigned for the Y and Subject tables ("Activites" and "Subject", respectively)
+
+The merged Y tables swaps it's signifiers (1, 2, etc.) with the descriptions from the activities table ("WALKING", "SITTING", etc.)
+
+Now, the tidied data tables (X dataset, Y (Activities), and Subject) are all combined into one table. The script uses cbind() function because other functions such as merge() will alter the order of the data.
+
+The new data is stored in New_Data. It is a data table of 10299 observations and 68 variables.
+
+Lastly, 
 
 
 
