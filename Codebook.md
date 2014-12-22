@@ -60,9 +60,7 @@ Now, the tidied data tables (X dataset, Y (Activities), and Subject) are all com
 
 The new data is stored in New_Data. It is a data table of 10299 observations and 68 variables.
 
-Lastly, the mean is taken of New_Data for each type of activity, for each subject, for each variable.
-
-
+Lastly, the mean is taken of New_Data for each type of activity, for each subject, for each variable. The new tidy data set is exported using the write.table() function to create "tidy.txt"
 
 
 
