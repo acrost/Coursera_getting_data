@@ -12,7 +12,6 @@ The project's goal is to organize the data into a "tidy" dataset:
 
 Comments in the run_analysis.r script describe what the code is doing. However, this codebook describes the data, variables, and transformative work performed on the data. 
 
-
 # Data Set Information
 
 The data is collected from Samsung Galaxy S II smart phones worn by 30 volunteers aged 19-48 years old. 
@@ -30,7 +29,7 @@ The data relevant to this project are stored in these text files contained in th
 * features.txt : *list of features measured*
 * activity_labels.txt : *creates a link between labels (such as 1,2,etc.) with their activity description.*
 
-This project is concerned with extracting only the mean and standard deviation measurements from the dataset.
+This project focus is on extracting only the mean and standard deviation measurements from the dataset.
 The relevant data contains either one of these identifiers in the their variable names:
 
 mean(): Mean value
@@ -41,7 +40,9 @@ These descriptions are found in the features.txt file
 
 # Getting Started
 
-After the data is downloaded, each text file
+After the data is downloaded, each text file is read as a table into RStudio using the Read.Table() function. 
+The training sets, labels, and subjects are merged with the corresponding testing sets, labels and subjects.
+The training data for all types is placed first.
 
 
 
