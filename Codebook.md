@@ -31,7 +31,7 @@ The data relevant to this project are stored in these text files contained in th
 
 
 
-# Getting Started
+# Code execution
 
 After the data is downloaded, each text file is read as a table into RStudio using the Read.Table() function. 
 The training sets, labels, and subjects are merged with the corresponding testing sets, labels and subjects.
