@@ -29,20 +29,30 @@ The data relevant to this project are stored in these text files contained in th
 * features.txt : *list of features measured*
 * activity_labels.txt : *creates a link between labels (such as 1,2,etc.) with their activity description.*
 
-This project focus is on extracting only the mean and standard deviation measurements from the dataset.
-The relevant data contains either one of these identifiers in the their variable names:
 
-mean(): Mean value
-
-std(): Standard deviation
-
-These descriptions are found in the features.txt file 
 
 # Getting Started
 
 After the data is downloaded, each text file is read as a table into RStudio using the Read.Table() function. 
 The training sets, labels, and subjects are merged with the corresponding testing sets, labels and subjects.
 The training data for all types is placed first.
+
+The features and activity descriptions are placed in tables as well.
+
+The features table contains the variable labels for the data in the merged X dataset.
+The colnames() function is called to rename the X dataset variables (unlabelled so far) with the features variables.
+
+The focus is on extracting only the mean and standard deviation measurements from the dataset. 
+The relevant data contains either one of these identifiers in the their variable names:
+
+* mean(): Mean value
+* std(): Standard deviation
+
+A search is performed using the  grep() fucntions to locate these in the merged X dataset using the new labels assigned from the features table.
+
+
+
+
 
 
 
